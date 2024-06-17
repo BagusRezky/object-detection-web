@@ -23,7 +23,7 @@ function LineGraph() {
       <h4 className="font-bold text-gray-600">
         Total Interaksi yang Melewati Billboard per Bulan
       </h4>
-      <LineChart width={1200} height={300} data={data}>
+      <LineChart width={1100} height={300} data={data}>
         <Line type="monotone" dataKey="value" stroke="#8884d8" />
         <CartesianGrid stroke="#ccc" />
         <XAxis dataKey="name" />

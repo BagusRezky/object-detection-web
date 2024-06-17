@@ -1,7 +1,7 @@
-import StatsCard from "./StatsCard";
-import LineGraph from "./LineGraph";
-import BarGraph from "./BarGraph";
-import PieChart from "./PieChart";
+import StatsCard from "../components/StatsCard";
+import LineGraph from "../components/LineGraph";
+import BarGraph from "../components/BarGraph";
+import PieChart from "../components/PieChart";
 
 function DashboardContainer() {
   return (
