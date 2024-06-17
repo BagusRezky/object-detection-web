@@ -5,6 +5,8 @@
 
 import DashboardContainer from "./pages/DashboardContainer";
 import AllBillboard from "./pages/AllBilboard";
+import ReportList from "./pages/ReportList";
+import BillboardReport from "./pages/BillboardReport";
 // import AllBillboard from "./pages/AllBillboard";
 import './index.css'
 import Sidebar from "./components/SideBar";
@@ -19,6 +21,8 @@ function App() {
         <Routes>
           <Route path="/overview" element={<DashboardContainer />} />
           <Route path="/all-billboard" element={<AllBillboard />} />
+          <Route path="report" element={<ReportList />} />
+          <Route path="report/:billboardName" element={<BillboardReport />} />
           {/* Add additional routes as needed */}
         </Routes>
       </div>
